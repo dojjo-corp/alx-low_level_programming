@@ -1,2 +1,11 @@
 #include <stdio.h>
-int main(void) {puts("\"Progamming is liike building a multilingual puzzle"); return 0;}
+/**
+ * main - Entry point of progam
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	puts("\"Progamming is liike building a multilingual puzzle");
+	return (0);
+}
