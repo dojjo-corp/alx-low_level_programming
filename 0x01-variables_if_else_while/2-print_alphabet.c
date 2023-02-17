@@ -10,7 +10,7 @@ int main(void)
 	char alpha_low[] = "abcdefghijklmnopqrstuvwxyz";
 	unsigned long int i = 0;
 
-	for (; i < sizeof(alpha_low); i++)
+	for (; i < sizeof(alpha_low) - 1; i++)
 	{
 		putchar(alpha_low[i]);
 	}
