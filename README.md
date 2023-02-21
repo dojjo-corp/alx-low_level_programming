@@ -1,1 +1,1 @@
-Projects to get abreast with working with functions betty styled
+Projects based on the C programming language.
