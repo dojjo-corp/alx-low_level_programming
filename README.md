@@ -1,1 +1,1 @@
-# alx-low_level_programming projects
+Projects to get abreast with working with functions betty styled
