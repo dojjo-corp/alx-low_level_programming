@@ -23,7 +23,7 @@ void print_char(void)
 
 void print_alphabet(void)
 {
-	char low_apha[] = "abcdefghijklmnopqrstuvwxyz";
+	char low_alpha[] = "abcdefghijklmnopqrstuvwxyz";
 	unsigned long int i = 0;
 
 	for (; i < sizeof(low_alpha) - 1; i++)
