@@ -8,7 +8,7 @@ void print_alphabet(void)
 	char low_alpha[] - "abcdefghijklmnopqrstuvwxyz";
 	unsigned long int i = 0;
 
-	for (; i < sizef(low_alpha) - 1; i++)
+	for (; i < sizeof(low_alpha) - 1; i++)
 	{
 		_putchar(low_alpha[i]);
 	}
