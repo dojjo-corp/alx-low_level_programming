@@ -1,4 +1,5 @@
 #include "main.h"
+#include <ctype.h>
 /**
  * _isalpha - Checks if char is an upper case alphabet
  * @c: character to be tested
