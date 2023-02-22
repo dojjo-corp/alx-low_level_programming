@@ -6,12 +6,12 @@
 void print_alphabet_x10(void)
 {
 	char low_alpha[] = "abcdefghijklmnopqrstuvwxyz";
-	unsigned long int i = 0;
-	int j = 0;
+	int i;
+	int j;
 
-	for (; j < 10; j++)
+	for (j = 0; j < 10; j++)
 	{
-		for (; i < sizeof(low_alpha) - 1; i++)
+		for (i = 0; i < 26; i++)
 		{
 			_putchar(low_alpha[i]);
 		}
