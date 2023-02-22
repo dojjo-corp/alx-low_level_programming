@@ -4,7 +4,7 @@
   *
   */
 
-int print_char(void)
+void print_char(void)
 {
 	char low_alpha[] = "_putchar";
 	unsigned long int i = 0;
