@@ -1,12 +1,16 @@
-#include <stdio.h>
 #include "main.h"
 /**
- * main - Check the code
+ * print_aphabet - Prints all alphabets in lowercase
  *
- * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char low_alpha[] - "abcdefghijklmnopqrstuvwxyz";
+	unsigned long int i = 0;
+
+	for (; i < sizef(low_alpha) - 1; i++)
+	{
+		_putchar(low_alpha[i]);
+	}
+	_putchar('\n');
 }
